@@ -5,9 +5,9 @@
 *.obj
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# *.so
+# *.dylib
+# *.dll # Keeping DLLs commented out in case we need the ScyllaHide DLLs
 
 # Compiled Static libraries
 *.lai
@@ -24,26 +24,3 @@
 *.log
 *.err
 
-# Target DLLs and Packaged binaries
-packed.dll
-unpacked.dll
-cleaner.dll
-jvm.dll
-jvmunpacked.dll
-
-# Analysis scripts that are not part of the source
-verify_cleaner.py
-analyze_rise.py
-analyze_rise2.py
-diff_analysis.py
-disasm_rise.py
-section_diff.py
-vmp_analyze.py
-analysis_report.json
-
-# Exclude zip files
-*.zip
-
-# Ignore the other old folder
-vmp_unpacker/
-scratch/
